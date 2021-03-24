@@ -97,8 +97,8 @@ author:
   name             : "김지운"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "프로그래밍 초보"
-  location         : "대한민국"
-  email            :
+  location         : "대한민국, 화성"
+  email            : "
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
