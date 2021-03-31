@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "air", "default", "aqua" , "dark", "dirt", "n
 
 # Site Settings
 locale                   : "ko"
-title                    : "파이썬"
+title                    : "파2썬"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "김지운"
