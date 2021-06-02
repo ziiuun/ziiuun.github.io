@@ -1,0 +1,35 @@
+---
+layout: single
+title: "if 조건문 활용문제1"
+---
+[문제상황]  
+가위, 바위, 보 게임을 만들어 봅시다. 가위바위보 게임은 다음과 같이 진행됩니다.  
+ex1)  
+나 입력(가위:s, 바위:r, 보:p): s  
+너 입력(가위:s, 바위:r, 보:p): s  
+비겼다.  
+ex2)  
+나 입력(가위:s, 바위:r, 보:p): r  
+너 입력(가위:s, 바위:r, 보:p): s  
+이겼다.  
+ex3)  
+나 입력(가위:s, 바위:r, 보:p): p  
+너 입력(가위:s, 바위:r, 보:p): s  
+졌다.  
+
+```
+me=input('I select ( r / s / p ): ')
+you=input('You select ( r / s / p ): ')
+if (me=='r' and you=='p') or (me=='s' and you=='r') or (me=='p' and you=='s'):
+  print('You WIN !')
+elif me==you:
+  print('DREW !')
+else:
+  print('You LOSE !')
+```
+[출력결과]  
+```python
+I select ( r / s / p ): r
+You select ( r / s / p ): s
+You LOSE !
+```
