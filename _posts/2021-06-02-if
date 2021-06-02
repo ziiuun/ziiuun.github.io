@@ -16,8 +16,7 @@ ex3)
 나 입력(가위:s, 바위:r, 보:p): p  
 너 입력(가위:s, 바위:r, 보:p): s  
 졌다.  
-
-```
+```python
 me=input('I select ( r / s / p ): ')
 you=input('You select ( r / s / p ): ')
 if (me=='r' and you=='p') or (me=='s' and you=='r') or (me=='p' and you=='s'):
